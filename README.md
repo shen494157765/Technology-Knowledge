@@ -69,7 +69,6 @@ Knowledge Notes for Coding Technology
 
   dos2unix xxx.sh
 
-* 
 
   
 
@@ -91,6 +90,7 @@ Knowledge Notes for Coding Technology
 # Pytorch
 
 * Runtime Error: received 0 items of ancdata:
+
   torch.multiprocessing.set_sharing_strategy('file_system')
   
 * print local time
