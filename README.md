@@ -69,6 +69,9 @@ Knowledge Notes for Coding Technology
 
   dos2unix xxx.sh
 
+* install nvidia driver
+
+  https://zhuanlan.zhihu.com/p/366882419
 
   
 
