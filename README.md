@@ -112,3 +112,11 @@ Knowledge Notes for Coding Technology
 * vim ~/.ssh/config
 
   add new ssh key
+
+
+
+
+
+
+# Discovery NEU
+* salloc -N 1 -p ce-mri --gres=gpu:v100:4 --cpus-per-task=48 (--time=2-00:00:00)
