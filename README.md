@@ -118,5 +118,17 @@ Knowledge Notes for Coding Technology
 
 
 
-# Discovery NEU
+# Discovery Northeastern University
 * salloc -N 1 -p ce-mri --gres=gpu:v100:4 --cpus-per-task=48 (--time=2-00:00:00)
+  
+  call for gpu cpu resource
+
+* sinfo --partition=ce-mri --Format=nodes,cpus,nodelist,gres,statecompact,features
+  
+  find the available resource at column 'STATE'
+
+* squeue -p ce-mri
+
+  find the jobs with people
+
+
