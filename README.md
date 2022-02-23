@@ -73,6 +73,9 @@ Knowledge Notes for Coding Technology
 
   https://zhuanlan.zhihu.com/p/366882419
 
+* get the ip port of server
+
+  grep Port /etc/ssh/sshd_config
   
 
   
