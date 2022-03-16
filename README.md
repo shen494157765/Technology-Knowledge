@@ -77,7 +77,9 @@ Knowledge Notes for Coding Technology Accumulated by Myself
 
   grep Port /etc/ssh/sshd_config
   
-
+* kill the distribution address for the error: address already in use
+  ps -a
+  kill -9 ....
   
 
   
