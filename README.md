@@ -62,7 +62,7 @@ Knowledge Notes for Coding Technology Accumulated by Myself
 
 * vim ~/.vimrc       add the following to solve the problem "Press Enter or type command to continue"
 
-  set shortmess=a
+  set shortmess=a,
   set cmdheight=2
 
 * change file to unix form (used in windows or..)
@@ -79,7 +79,7 @@ Knowledge Notes for Coding Technology Accumulated by Myself
   
 * kill the distribution address for the error: address already in use
 
-  ps -a \
+  ps -a, 
   kill -9 ....
   
 
