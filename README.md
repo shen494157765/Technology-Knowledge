@@ -31,8 +31,10 @@ Knowledge Notes for Coding Technology Accumulated by Myself
 * add user
 
   sudo useradd username
+  
+  sudo passwd username  (add password for account)
 
-  sudo usermod -aG sudo username.  (add sudo power)
+  sudo usermod -aG sudo username  (add sudo power)
 
 * kill for loop in shell
 
