@@ -32,13 +32,13 @@ Knowledge Notes for Coding Technology Accumulated by Myself
 
   sudo adduser username
   
+  sudo usermod -aG sudo username  (add sudo power)
+  
   OR
   
   sudo useradd -d /home/username -s /bin/bash -m username
   
   sudo passwd username  (add password for account)
-
-  sudo usermod -aG sudo username  (add sudo power)
 
 * kill for loop in shell
 
