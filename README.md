@@ -30,7 +30,11 @@ Knowledge Notes for Coding Technology Accumulated by Myself
 
 * add user
 
-  sudo useradd username
+  sudo adduser username
+  
+  OR
+  
+  sudo useradd -d /home/username -s /bin/bash -m username
   
   sudo passwd username  (add password for account)
 
