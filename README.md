@@ -30,13 +30,13 @@ Knowledge Notes for Coding Technology Accumulated by Myself
 
 * add user
 
-  sudo adduser username
+  sudo **adduser** username
   
   sudo usermod -aG sudo username  (add sudo power)
   
   OR
   
-  sudo useradd -d /home/username -s /bin/bash -m username
+  sudo **useradd** -d /home/username -s /bin/bash -m username
   
   sudo passwd username  (add password for account)
 
