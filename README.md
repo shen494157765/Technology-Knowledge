@@ -88,7 +88,19 @@ Knowledge Notes for Coding Technology Accumulated by Myself
   ps -a, 
   kill -9 ....
   
+* when linux was hacked
 
+  1. find the process that highly dominates the CPU \
+  ps -eo cmd,pcpu,pid,user --sort -pcpu | head
+  
+  2. get the exact path of the process \
+  ls -l /proc/{pid}/exe
+  
+  3. remove the exact process, it might be xxx.sh or python
+  
+  4. revise the password of sudo \
+  sudo -s  (go into the sudo terminal) \
+  passwd root  (type new password twice)
   
 
 
