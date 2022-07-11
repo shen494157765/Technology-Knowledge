@@ -102,6 +102,8 @@ Knowledge Notes for Coding Technology Accumulated by Myself
   sudo -s  (go into the sudo terminal) \
   passwd root  (type new password twice)
   
+  5. other methods: http://wlaq.xjtu.edu.cn/info/1008/1945.htm
+  
 
 
 
