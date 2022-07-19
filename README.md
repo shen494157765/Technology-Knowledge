@@ -156,5 +156,32 @@ Knowledge Notes for Coding Technology Accumulated by Myself
 * squeue -p ce-mri
 
   find the jobs with people
+  
+* Submit the job
+  
+  conda activate ...
+  
+  create the .script file:
+  #!/bin/bash
+  #SBATCH --nodes=1 \
+  #SBATCH --time=7-00:00:00 \
+  #SBATCH --job-name=MyJobName \
+  #SBATCH --partition=ce-mri \
+  #SBATCH --gres=gpu:v100:1 \
+  #SBATCH --cpus-per-task=48 \
+  sh /full/path/to/shell/file/run_pretrain.sh
+  
+  do not use nohup in shell file
+  
+  there will be a .out file for the print information
+  
+* Find the job
+
+  squeue -u $USER
+  
+* Cancel the job
+
+  scancel --name=MyJobName
+
 
 
