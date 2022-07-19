@@ -161,8 +161,8 @@ Knowledge Notes for Coding Technology Accumulated by Myself
   
   conda activate ...
   
-  create the .script file:
-  #!/bin/bash
+  create the run.script file: \
+  #!/bin/bash \
   #SBATCH --nodes=1 \
   #SBATCH --time=7-00:00:00 \
   #SBATCH --job-name=MyJobName \
@@ -170,6 +170,9 @@ Knowledge Notes for Coding Technology Accumulated by Myself
   #SBATCH --gres=gpu:v100:1 \
   #SBATCH --cpus-per-task=48 \
   sh /full/path/to/shell/file/run_pretrain.sh
+  
+  then: \
+  sbatch run.script
   
   do not use nohup in shell file
   
