@@ -57,6 +57,8 @@ Knowledge Notes for Coding Technology Accumulated by Myself
   sudo sh -c "echo "" > /var/log/syslog"
 
   constrain the size of kern.log and syslog:
+  
+  sudo vim /etc/rsyslog.d/50-default.conf
 
   $outchannel mysyslog,/var/log/syslog,1048576
 
@@ -65,6 +67,8 @@ Knowledge Notes for Coding Technology Accumulated by Myself
   $outchannel mykernlog,/var/log/kern.log,1048576                                                       
 
   kern.*       :omfile:$mykernlog
+  
+  sudo service rsyslog restart
 
 * vim ~/.vimrc       add the following to solve the problem "Press Enter or type command to continue"
 
